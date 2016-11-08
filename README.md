@@ -1,2 +1,2 @@
 # FPAwfullyDark
-Dark theme for facepunch
+Dark theme for Facepunch
