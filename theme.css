@@ -1990,14 +1990,10 @@ h2.searchlisthead a {
 .blockfoot a {
 	color: #00ccff!important;
 }
-@media
-/*only screen and */
-
-(max-device-width: 600px) {
+@media only screen and (max-device-width: 600px) {
 	/* Fix for missing new post indicator for FP Droid */
 	
-	ol#posts .postbitnew .postdetails,
-	ol#posts .postbitnew .postfoot {
+	ol#posts .postbitnew .postdetails, ol#posts .postbitnew .postfoot {
 		border-left: 1px solid rgba(0, 173, 238, 0.5) !important;
 		margin-left: 0px !important;
 		width: calc(100% - 1px);
