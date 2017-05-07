@@ -4,7 +4,6 @@ Based on Facepunch DeepDark Solid by Prolifica (prolifica@mailbox.org, BTC walle
 With code by FP user CowThing
 With help from FP user Diwako (read and locked threads)
 v1
-
 Original stuff:
 Base64 Images
 Light: rgb(75,75,75)!important;
@@ -13,7 +12,6 @@ Mid: rgb(50,50,50)!important;
 MidDark: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH3gsVBisgvWTgUAAAACtJREFUCNdjVFBQ+M/Ly8sAA0zCwsIMyIDp169fDAwMDAyfP3+GCMBkYCoBEeUHxwSUWgMAAAAASUVORK5CYII=')!important;
 Dark: rgb(37,37,37)!important;
 Last post icon: url('data:image/gif;base64,R0lGODlhEAANAOMLABxkmx1lnBxmmh1mnS1zqS90qVKGtV6KtoKYwoKZxba2tgAAAAAAAAAAAAAAAAAAACH5BAEKAA8ALAAAAAAQAA0AAARO8ElkSiAmyb3PEKAADAcnHWEKlhsSpEoaaJIRAoASh8ZGiLrgTlDYvATCoCiwKYCSw2JNFNLhQL3J8SlDcFAgAFXM+m5BgbKJYikYvKYIADs=')!important;
-
 Inacio's colors:
 #AAA; #CCC; #1b1b1b; #282828; #1462c1 (blue); whatever else I felt like at the moment
 */
@@ -1591,7 +1589,6 @@ table#threads tr.threadbit td.alt {
 table#threads tr.threadbit.lock{
    background-image: url("http://i.imgur.com/WSJIVLW.png");
 }
-
 table#threads tr.threadbit.deleted{
    background-image: url("http://i.imgur.com/WSJIVLW.png");
 }*/
@@ -1685,20 +1682,16 @@ div.ticker_item > div[style*="rgba(190, 220, 255"] a {
 
 @-webkit-keyframes greenPulse {
 	from {
-		text-shadow: 0 0 5px rgba(255, 207, 16, 100), 0 0 5px rgba(255, 188, 0, 100), 0 0 10px rgba(255, 214, 16, 100), 0 0 20px #FFCC00, 0 0 10px #FFC800, 0 0 20px #FFBC00, 0 0 10px #FF9100;
-		color: #404040 !important;
+		text-shadow: 0 0 0px;
+		color: #fcbe1d;
 	}
-	25% {
-		text-shadow: 0 0 0px rgb(255, 207, 52), 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000;
-		color: rgba(252, 190, 32, 1);
-	}
-	75% {
-		text-shadow: 0 0 0px rgb(255, 207, 52), 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000, 0 0 0px #000000;
-		color: rgba(252, 190, 32, 1);
+	50%{
+text-shadow: 0 0 5px rgba(255, 207, 16, 100);
+		color: #fcbe1d;
 	}
 	to {
-		text-shadow: 0 0 4px rgba(255, 207, 16, 100), 0 0 4px rgba(255, 188, 0, 100), 0 0 9px rgba(255, 214, 16, 100), 0 0 19px #FFCC00, 0 0 9px #FFC800, 0 0 19px #FFBC00, 0 0 9px #FF9100;
-		color: #404040 !important;
+		text-shadow: 0 0 0px;
+		color: #fcbe1d;
 	}
 }
 .user_387119 > div.username_container > a.username > strong > font {
@@ -1710,14 +1703,12 @@ div.ticker_item > div[style*="rgba(190, 220, 255"] a {
 }
 /* crazy username stuff - uncomment for lots of fun! */
 /* DELETE THIS LINE...
-
 a.username{
   font: normal 13px/1 "Open Sans", Helvetica, sans-serif!important;
   color: rgba(226,226,226,1)!important;
   -o-text-overflow: ellipsis!important;
   text-overflow: ellipsis!important;
 }
-
 a.username > strong >font[color="#A06000"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -1729,7 +1720,6 @@ a.username > strong >font[color="#A06000"] {
   text-overflow: ellipsis;
   text-shadow: 1px 1px 1px rgba(252,146,7,0.91);
 }
-
 ...AND ALSO THIS ONE TO MAKE FANCY USERNAMES WORK */
 /* gold usernames have a new color: */
 
