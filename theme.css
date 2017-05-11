@@ -1954,6 +1954,12 @@ h2.searchlisthead a {
     }
 }
 
+/* Give polidicks a fucking icon */
+
+#forum439 > .foruminfo {
+	background-image: url(http://horobox.co.uk/u/reag/tikiow.png) !important;
+}
+
 /* Moderator specific shit */
 /* vB Mod panel is ugly */
 
