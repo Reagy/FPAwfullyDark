@@ -2078,6 +2078,10 @@ a.copyright:link, a.copyright:visited, a.copyright:active {
 	margin-top: -5px;
 }
 
+#quick_reply .group {
+	margin-bottom: 10px;
+}
+
 /* Remove the bullshit border on the mods page */
 
 #groups_1 ol.blockbody, #groups_2 ol.blockbody {
