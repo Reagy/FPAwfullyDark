@@ -1957,6 +1957,10 @@ h2.searchlisthead a {
 /* Give polidicks a fucking icon */
 
 #forum439 > .foruminfo {
+	background-image: url(/fp/forums/396.png) !important;
+}
+
+#forum396 > .foruminfo {
 	background-image: url(http://horobox.co.uk/u/reag/tikiow.png) !important;
 }
 
