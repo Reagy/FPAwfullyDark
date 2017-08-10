@@ -1954,14 +1954,15 @@ h2.searchlisthead a {
     }
 }
 
-/* Give polidicks a fucking icon */
-
-#forum439 > .foruminfo {
-	background-image: url(/fp/forums/396.png) !important;
-}
+/* Give polidicks a fucking NICE icon and give Discord its icon before they upload it */
 
 #forum396 > .foruminfo {
 	background-image: url(http://horobox.co.uk/u/reag/tikiow.png) !important;
+}
+
+#forum440 > .foruminfo {
+	background-image: url(http://horobox.co.uk/u/reag/2017-08-10_14-06-16.png) !important;
+	background-size: 24px 24px;
 }
 
 /* Moderator specific shit */
