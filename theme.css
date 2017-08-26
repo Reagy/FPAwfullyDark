@@ -1,26 +1,20 @@
 /*
-Facepunch Awfully Dark
+Facepunch 
 Based on Facepunch DeepDark Solid by Prolifica (prolifica@mailbox.org, BTC wallet: 163dFKocwe2vkuc3B8sdaTj1uV9LTyvDBF)
 With code by FP user CowThing
 With help from FP user Diwako (read and locked threads)
-Butc- I mean "fixed" by Reagy
-
-v1.01
-
-Original stuff: Base64 Images
-Light: rgb(75,75,75) !important;
-MidLight: rgb(62,62,62) !important;
-Mid: rgb(50,50,50) !important;
+v1
+Original stuff:
+Base64 Images
+Light: rgb(75,75,75)!important;
+MidLight: rgb(62,62,62)!important;
+Mid: rgb(50,50,50)!important;
 MidDark: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH3gsVBisgvWTgUAAAACtJREFUCNdjVFBQ+M/Ly8sAA0zCwsIMyIDp169fDAwMDAyfP3+GCMBkYCoBEeUHxwSUWgMAAAAASUVORK5CYII=')!important;
-Dark: rgb(37,37,37) !important;
+Dark: rgb(37,37,37)!important;
 Last post icon: url('data:image/gif;base64,R0lGODlhEAANAOMLABxkmx1lnBxmmh1mnS1zqS90qVKGtV6KtoKYwoKZxba2tgAAAAAAAAAAAAAAAAAAACH5BAEKAA8ALAAAAAAQAA0AAARO8ElkSiAmyb3PEKAADAcnHWEKlhsSpEoaaJIRAoASh8ZGiLrgTlDYvATCoCiwKYCSw2JNFNLhQL3J8SlDcFAgAFXM+m5BgbKJYikYvKYIADs=')!important;
-Inacio's colors: #AAA; #CCC; #1b1b1b; #282828; #1462c1 (blue); whatever else I felt like at the moment
-
-Inacio's colours suck, replaced and gone back to a more uniform style that fits more closely to the original Facepunch colour palette
-Also applies more uniformly accross pages, no more mismatched colour styling from frontpage to threads
-
+Inacio's colors:
+#AAA; #CCC; #1b1b1b; #282828; #1462c1 (blue); whatever else I felt like at the moment
 */
-
 /* Facepunch Header Logo Change: */
 
 #logo a {
@@ -2121,6 +2115,10 @@ a.copyright:link, a.copyright:visited, a.copyright:active {
 
 .posttools {
 	margin-top: 10px;
+}
+
+.blocksubhead > .posttools {
+	margin-top: 0px;
 }
 
 .postfoot {
