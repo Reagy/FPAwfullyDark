@@ -38,7 +38,7 @@
 		Then forked from Facepunch Awfully Dark by Inacio (https://github.com/InacioNeto/FPAwfullyDark)
 			With code by FP user CowThing and Diwako (read and locked threads) and some other people/places
 		
-		v1.04
+		v1.07
 
 	*/
 	
@@ -1012,9 +1012,9 @@
 	#userinfo {
 		color: var(--alt-text-colour3)!important;
 	}
-	div.postdetails > div.userinfo > span > a > font {
+	/*div.postdetails > div.userinfo > span > a > font {
 		color: rgb(8, 128, 188)!important;
-	}
+	}*/
 	#cke_contents_vB_Editor_001_editor > textarea {
 		background-color: #1b1b1b!important;
 		color: var(--alt-text-colour4)!important;
@@ -2248,5 +2248,17 @@
 	}
 
 	.usertitle * font[size="1"], .usertitle font[size="1"] {
-		font-size: 80% !important;
+		font-size: 100% !important;
+	}
+
+	.header_banned {
+		max-width: 96.5% !important;
+		background: var(--alt-bg) !important;
+		border: 1px solid var(--that-red-tone) !important;
+		text-align: center;
+		font-size: 10px;
+	}
+
+	.header_banned a {
+		color: var(--white)!important;
 	}
